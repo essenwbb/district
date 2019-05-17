@@ -24,7 +24,8 @@ https://github.com/wuyueCreator/district/archive/master.zip
 sunzhenqiang@mabao51.net
 
 
-## 设计方案
+## 设计方案  
+> [作业原要求](https://shimo.im/docs/z3TihgsbBA05Xbss/)
 - 爬取中华人民共和国民政部官网,获取数据
 - 对于直辖市，增加 XX城区，以便统一数据格式
 - 将行政区数据按照省/直辖市、市/城区、县依次存储至 Province、City、County，按照归属关系进行关联
