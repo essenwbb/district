@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 # sqllite
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
-# mysql
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:19940619_Wbb@localhost:3306/test'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
