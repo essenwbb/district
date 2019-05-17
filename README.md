@@ -34,3 +34,7 @@ sunzhenqiang@mabao51.net
     - update
     - query
 
+
+## TODO list
+- 异常情况处理
+- 错误类型映射表
