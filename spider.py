@@ -21,7 +21,6 @@ class DistrictData:
                 self.title = link["title"]
                 self.url = '{}{}'.format(self.base_url, link["href"])
                 return
-        self.url = None
 
     def __redirected_url(self):
         if not self.url:
@@ -31,11 +30,11 @@ class DistrictData:
         res = requests.get(url=self.url)
         res.encoding = 'utf-8'
         links = re.findall(re_link, res.text)
-        self.url = links[0] if links else None
+        self.url = links[0] if links else ''
 
     def __newest_data(self):
         if not self.url:
-            self.data = None
+            self.data = []
             return
         res = requests.get(url=self.url)
         soup = BeautifulSoup(res.text, 'html.parser')
