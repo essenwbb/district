@@ -20,8 +20,6 @@ flask run
 ……………………………………………………………………………………………………………………………………………………………………………………………… 
 ```
 
-https://github.com/wuyueCreator/district/archive/master.zip
-sunzhenqiang@mabao51.net
 
 
 ## 设计方案  
